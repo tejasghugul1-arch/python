@@ -1,0 +1,119 @@
+VERSION CONTROL SYSTEM 
+
+
+TRACKS CODE HISTORY 
+
+HELPS IN COLLABORATES 
+
+
+GITHUB : STORE AND MANAGE THE CODE 
+----------------------------------------------------------------------------------------
+         
+
+MAKE ACCOUNT ON http://github.com
+1. add email id
+2. create account 
+----------------------------------------------------------------------------------------------
+
+OVERVIEW : YOUR ACTIVITIES 
+REPOSITORIES: YOUR PROJECTS 
+             > NEW BUTTON
+             > Repository name
+             > description
+             > done
+
+
+chanege (add, commit)
+
+git--version (gitbash)
+
+1. Configuring Git 
+        git config--global user.name "myname"  // global or local (~ root directory)
+        git config--global user.email "someone@gmail.com"
+        git config --list
+local (laptop)
+gloBAL (GITHUB)
+ 
+CLONE - CLONE REPOSITORY ON YOUR LOCAL MACHINE 
+        git clone <-some linl->
+
+        git status 
+
+        (after change files need to update ) (untracld,modifies staged ready to commit, unmodified)
+
+        git add .( all files)
+        git commit -m "message" ( laptop )
+        
+        push (github online remote)
+
+        git push origin (git file name) main (branch)
+
+        ls -a(check git repo)
+
+ when u have project  u need to initialize it for github
+
+        git init 
+        git add.
+        git commit - "mesage"
+        
+
+        go on chrome locaL REPO/PUBLIC/CREATE REPO
+
+        git init 
+        git remote add originn link
+        git remote -v (verify  remote)
+        git branch ( to check branch )(collabarative work)
+        git branch -M main
+        git push origin main
+        git push -u origin main (for long time work)
+        next time only git push
+
+        workflow 
+        local git : githubrepo,clone, change add commit push
+
+        git branches 
+        different branch different change 
+
+        git branch 
+        git branch -m name
+
+        make new branch'
+        git checkout -b newname
+
+        to change branch 
+        git checkout main
+
+        delete branch 
+        git checkout -d branchname
+        (if u are in branchname branch u need shift to other branch in order to delete)
+
+        git push origin feature 1(branch only)
+
+        merging:
+        '
+        1 git diff branchname
+        git merge  branch name 
+
+        2 create pr(pull requst on github )
+
+
+        remote to local cghange
+        git pull origin main(branch name)
+
+
+undoing changes
+when git add.
+
+roll back git reset file name
+
+when commited changes 
+git reset HEAD~1
+
+LOG RECORD
+git log(hassh code generatred)
+
+git reset hash code (to undo more than one order)
+git reset --hard
+
+forking: rough copy 
+to work on someone project.
