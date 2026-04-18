@@ -1,0 +1,1 @@
+#write program to accept marks of 6 students and display them in sorted manner

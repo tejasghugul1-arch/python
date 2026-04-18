@@ -53,8 +53,8 @@ CLONE - CLONE REPOSITORY ON YOUR LOCAL MACHINE
  when u have project  u need to initialize it for github
 
         git init 
-        git add.
-        git commit - "mesage"
+        git add . // mistakes
+        git commit -m "mesage"
         
 
         go on chrome locaL REPO/PUBLIC/CREATE REPO

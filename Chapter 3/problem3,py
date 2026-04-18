@@ -1,0 +1,8 @@
+a = []
+a1 = int(input("value"))  #include vaye in strings
+a.append(a1)
+
+a2 = int(input("value"))
+a.append(a2)
+
+print(sum(a))
